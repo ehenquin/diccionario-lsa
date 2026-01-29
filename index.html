@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<link rel="icon" type="image/png" href="https://i.postimg.cc/Y2ZmtXJD/ICONO.png">
+<link rel="apple-touch-icon" href="https://i.postimg.cc/Y2ZmtXJD/ICONO.png">
+
+<style>
+  /* --- BASE Y ESTILOS --- */
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body { width: 100%; min-height: 100%; background-color: #f0f2f5; font-family: 'Segoe UI', Roboto, sans-serif; overflow-x: hidden; }
+
+  /* Pantallas */
+  .screen { width: 100%; min-height: 100vh; }
+  .hidden { display: none !important; }
+
+  /* LOGIN */
+  #loginScreen { background: linear-gradient(135deg, #1a237e 0%, #000051 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; }
+  .login-card { background: white; padding: 25px; border-radius: 20px; width: 100%; max-width: 360px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+  .logo-container { width: 100%; height: 130px; background: white; border-radius: 12px; border: 2px solid #1a237e; margin-bottom: 20px; padding: 10px; display: flex; justify-content: center; align-items: center; }
+  .logo-img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  input { width: 100%; padding: 15px; margin: 10px 0; border: 2px solid #eee; border-radius: 12px; font-size: 16px; outline: none; }
+  .btn-login { width: 100%; padding: 16px; background: #1a237e; color: white; border: none; border-radius: 12px; font-weight: bold; font-size: 18px; margin-top: 10px; cursor: pointer; }
+  .btn-wa { display: block; margin-top: 20px; padding: 15px; background: #25D366; color: white; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 14px; }
+  .masters { display: flex; gap: 10px; margin-top: 30px; width: 100%; max-width: 360px; }
+  .m-card { flex: 1; text-align: center; color: white; }
+    /* esta linea le cambia el ancho y el alto de las fotos mias y de joni (tenian 65)*/
+  .m-card img { width: 95px; height: 95px; border-radius: 50%; border: 2px solid white; object-fit: cover; margin-bottom: 8px; }
+  .m-card b { font-size: 13px; display: block; }
+  .m-card p { font-size: 10px; opacity: 0.9; line-height: 1.3; }
+
+  /* APP */
+  #app { width: 100%; max-width: 900px; margin: 0 auto; padding: 20px 15px; }
+  .app-header { text-align:center; margin-bottom: 18px; }
+  .app-title { color:#1a237e; font-size: 26px; }
+  .app-subtitle { color:#5c6bc0; font-size: 14px; font-weight: 700; }
+
+  /* BUSCADOR PRINCIPAL */
+  .main-search-wrap { margin: 10px 0 14px 0; }
+  .main-search-input {
+    width: 100%;
+    padding: 14px 15px;
+    border: 2px solid #e6e6e6;
+    border-radius: 14px;
+    font-size: 15px;
+    outline: none;
+    background: #fff;
+  }
+  .main-search-input:focus { border-color: #1a237e; }
+  .main-search-note { font-size: 12px; color: #667; margin-top: 6px; text-align: center; }
+
+  /* SEPARADORES ELEGANTES */
+  .section-sep {
+    height: 1px;
+    border: 0;
+    margin: 12px 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0), rgba(26,35,126,0.25), rgba(0,0,0,0));
+  }
+  .section-sep.soft {
+    margin: 10px 0 14px 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.10), rgba(0,0,0,0));
+  }
+
+  /* FAVORITOS EN HOME */
+  .fav-home-wrap { margin: 12px 0 8px 0; }
+  .fav-home-top {
+    display:flex; align-items:center; justify-content:space-between;
+    margin: 6px 0 10px 0;
+  }
+  .fav-home-title { color:#1a237e; font-weight:900; font-size: 13px; }
+  .fav-home-btn {
+    padding: 10px 12px;
+    border-radius: 14px;
+    border: 2px solid #1a237e;
+    background: #fff;
+    color: #1a237e;
+    font-weight: 900;
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .fav-home-btn.on {
+    background: #fff3cd;
+    border-color: #f1c40f;
+    color: #6b5b00;
+  }
+
+  .menu-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 10px; }
+  @media (min-width: 600px) { .menu-grid { grid-template-columns: repeat(4, 1fr); } }
+  .card { background: white; border-radius: 18px; padding: 25px 10px; cursor: pointer; border: 1px solid #eee; box-shadow: 0 4px 8px rgba(0,0,0,0.05); text-align: center; }
+  .card span { font-size: 35px; display: block; margin-bottom: 10px; }
+  .card b { color: #1a237e; font-size: 14px; }
+
+  .view { width: 100%; padding-bottom: 60px; }
+  .section-header { background: #1a237e; color: white; padding: 15px; border-radius: 15px; margin-bottom: 20px; display: flex; align-items: center; position: sticky; top: 10px; z-index: 100; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+  .back-btn { cursor: pointer; font-size: 22px; font-weight: bold; margin-right: 15px; }
+  .section-title { font-size: 16px; font-weight: bold; text-transform: uppercase; }
+
+  .grid-vids { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 10px; }
+  .item-vid { background: white; border-radius: 12px; padding: 15px 5px; border: 1px solid #ddd; font-size: 11px; font-weight: bold; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100px; cursor: pointer; position: relative; }
+  .item-vid i { font-style: normal; font-size: 24px; margin-bottom: 5px; }
+  .featured { grid-column: 1 / -1; background: #e8eaf6; border: 2px solid #1a237e; color: #1a237e; padding: 15px; font-size: 14px; min-height: auto; flex-direction: row; gap: 10px; }
+
+  .search-results-wrap { margin-top: 14px; }
+  .search-results-title { color: #1a237e; font-weight: 900; font-size: 13px; margin: 10px 0; }
+  .no-results {
+    text-align: center;
+    padding: 18px 10px;
+    border-radius: 14px;
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #444;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  /* ESTRELLA FAVORITO EN CADA ITEM */
+  .fav-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    border: 2px solid #1a237e;
+    background: rgba(255,255,255,0.95);
+    display: flex; align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .fav-btn.on {
+    background: #fff3cd;
+    border-color: #f1c40f;
+  }
+
+  /* MODAL */
+  #modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 30000; display: none; justify-content: center; align-items: center; }
+  .modal-box { width: 95%; max-width: 800px; position: relative; }
+  .close { position: absolute; top: -50px; right: 0; color: white; font-size: 50px; cursor: pointer; z-index: 30005; }
+  .v-wrapper { position: relative; padding-bottom: 56.25%; height: 0; border-radius: 15px; overflow: hidden; background: #000; }
+  .v-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; z-index: 30001; }
+  .video-shield { position: absolute; top: 0; left: 0; width: 100%; height: 60px; background: transparent; z-index: 30002; }
+
+  /* Mensajes */
+  #statusMsg { font-size: 13px; font-weight: bold; margin: 10px 0; display: none; padding: 12px; border-radius: 12px; line-height: 1.4; }
+  .error-style { color: #d32f2f; background: #ffebee; border: 1px solid #d32f2f; }
+  .loading-style { color: #1a237e; background: #e8eaf6; border: 1px solid #1a237e; }
+
+
+/* Ajustes mobile para que la estrella no tape el contenido */
+@media (max-width: 480px) {
+  .item-vid {
+    padding-top: 32px; /* deja espacio arriba para la estrella */
+  }
+
+  .fav-btn {
+    top: 4px;
+    right: 4px;
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+}
+</style>
+</head>
+
+<body>
+  <section id="loginScreen" class="screen">
+    <div class="login-card">
+      <div class="logo-container">
+        <img src="https://i.postimg.cc/L5JC4xkM/Logo.jpg" class="logo-img" alt="Logo">
+      </div>
+
+      <h2 style="color:#1a237e; font-size: 20px;">Acceso Masters</h2>
+      <p style="font-size:13px; color:#666; margin-bottom:1px;">Diccionario LSA-AR (V6)</p>
+      <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
+      <p style="font-size:8px; color:#666; margin-bottom:1px;">Versión 6.</p>
+      <p style="font-size:8px; color:#666; margin-bottom:1px;">Favoritos flotantes, no tapan íconos</p>
+      <p style="font-size:8px; color:#666; margin-bottom:15px;">Credenciales protegidas (no visibles en URL) - 28/01/2026</p>
+      <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
+
+      <input type="text" id="uIn" placeholder="Usuario" autocomplete="off" />
+      <input type="password" id="pIn" placeholder="Contraseña" />
+
+      <div id="statusMsg"></div>
+
+      <button class="btn-login" id="loginBtn" onclick="validar()">INGRESAR</button>
+
+      <a
+        href="https://wa.me/543424307388?text=Hola%20Eduardo.%20Te%20env%C3%ADo%20el%20comprobante%20de%20pago%2C%20y%20te%20solicito%20acceso%20%28User%20y%20Pass%29%20para%20ingresar%20a%20la%20p%C3%A1gina%20del%20diccionario%20LSA-AR"
+        target="_blank"
+        class="btn-wa"
+      >SOLICITAR ACCESO</a>
+    </div>
+
+    <div class="masters">
+      <div class="m-card">
+        <img src="https://i.ibb.co/FLqSxZsx/joni.jpg" alt="Joni">
+        <b>Joni</b>
+        <p>Idea y Producción</p>
+      </div>
+      <div class="m-card">
+        <img src="https://i.ibb.co/wZ48fbCJ/edu.jpg" alt="Edu">
+        <b>Edu</b>
+        <p>Programación y Edición</p>
+      </div>
+    </div>
+  </section>
+
+  <main id="app" class="screen hidden">
+    <section id="menuMain" class="view">
+      <header class="app-header">
+        <h1 class="app-title">Diccionario LSA-AR</h1>
+        <div class="app-subtitle">UniendoMundosLSA</div>
+      </header>
+
+      <div class="main-search-wrap">
+        <input id="mainSearchIn" class="main-search-input" type="text" placeholder="Buscar en todo el diccionario..." autocomplete="off" />
+        <div class="main-search-note">Ej: hola, mamá, verde (te muestra todas las coincidencias)</div>
+      </div>
+
+      <hr class="section-sep" />
+
+      <div class="fav-home-wrap">
+        <div class="fav-home-top">
+          <div class="fav-home-title">⭐ Favoritos</div>
+          <div id="favHomeBtn" class="fav-home-btn" onclick="toggleHomeFavs()">VER</div>
+        </div>
+        <div id="favHomeGrid" class="grid-vids hidden"></div>
+      </div>
+
+      <hr class="section-sep soft" />
+
+      <div id="searchResultsWrap" class="search-results-wrap hidden">
+        <div class="search-results-title">Resultados</div>
+        <div id="searchGrid" class="grid-vids"></div>
+      </div>
+
+      <div id="menuGrid" class="menu-grid">
+        <div class="card" onclick="ir('abc')"><span>🔤</span><b>Abecedario</b></div>
+        <div class="card" onclick="ir('saludos')"><span>👋</span><b>Saludos</b></div>
+        <div class="card" onclick="ir('colores')"><span>🎨</span><b>Colores</b></div>
+        <div class="card" onclick="ir('familia')"><span>👨‍👩‍👧‍👦</span><b>Familia</b></div>
+        <div class="card" onclick="ir('pronombres')"><span>👉</span><b>Pronombres</b></div>
+        <div class="card" onclick="ir('meses')"><span>📅</span><b>Meses</b></div>
+        <div class="card" onclick="ir('tiempo')"><span>⏳</span><b>Tiempo</b></div>
+        <div class="card" onclick="ir('numeros')"><span>🔢</span><b>Números</b></div>
+        <div class="card" onclick="ir('casa')"><span>🏠</span><b>Cosas de la Casa</b></div>
+        <div class="card" onclick="ir('adjetivos')"><span>🎭</span><b>Adjetivos</b></div>
+        <div class="card" onclick="ir('verbos')"><span>🎬</span><b>Verbos</b></div>
+        <div class="card" onclick="ir('Otras expresiones')"><span>➕</span><b>Otras expresiones</b></div>
+      </div>
+    </section>
+
+    <section id="videoView" class="view hidden">
+      <div class="section-header">
+        <div class="back-btn" onclick="volver()">⬅</div>
+        <div id="sectionTitle" class="section-title">CATEGORÍA</div>
+      </div>
+      <div id="gridVids" class="grid-vids"></div>
+    </section>
+  </main>
+
+  <div id="modal" class="hidden">
+    <div class="modal-box">
+      <span class="close" onclick="cls()">&times;</span>
+      <div class="v-wrapper" id="videoContainer">
+        <button id="playBtn" style="position:absolute; inset:0; background:#000; color:white; font-size:22px; border:none; cursor:pointer; z-index:30001;">
+          ▶ Reproducir video
+        </button>
+      </div>
+    </div>
+  </div>
+
+<script>
+  let dbVideos = [];
+  const FAV_KEY = "LSA_FAVS_V1";
+  const CACHE_VIDEOS_KEY = "LSA_CACHE_VIDEOS";
+  let favSet = new Set();
+  let homeFavsOpen = false;
+
+  // Carga favoritos
+  function loadFavs() {
+    try {
+      const raw = localStorage.getItem(FAV_KEY);
+      if (!raw) { favSet = new Set(); return; }
+      const arr = JSON.parse(raw);
+      if (Array.isArray(arr)) favSet = new Set(arr.map(String));
+      else favSet = new Set();
+    } catch {
+      favSet = new Set();
+    }
+  }
+
+  function saveFavs() {
+    try {
+      localStorage.setItem(FAV_KEY, JSON.stringify(Array.from(favSet)));
+    } catch {}
+  }
+
+  function isFav(idDrive) {
+    return favSet.has(String(idDrive));
+  }
+
+  function toggleFav(idDrive) {
+    const key = String(idDrive);
+    if (favSet.has(key)) favSet.delete(key);
+    else favSet.add(key);
+    saveFavs();
+
+    if (!document.getElementById('videoView').classList.contains('hidden')) {
+      renderCategoryGrid();
+    }
+    if (homeFavsOpen) renderHomeFavs();
+
+    const q = (document.getElementById('mainSearchIn')?.value || "").trim().toLowerCase();
+    if (q) performSearch(q);
+  }
+
+  // Helpers de pantallas
+  function show(el) { el.classList.remove('hidden'); }
+  function hide(el) { el.classList.add('hidden'); }
+
+  // Validación local contra users.json
+  async function validar() {
+    const u = document.getElementById('uIn').value.trim();
+    const p = document.getElementById('pIn').value.trim();
+    const btn = document.getElementById('loginBtn');
+
+    if (!u || !p) { showMsg("⚠️ Campos vacíos", "error"); return; }
+
+    btn.disabled = true;
+    showMsg("⏳ Verificando acceso...", "loading");
+
+    try {
+      const resp = await fetch('users.json');
+      const users = await resp.json();
+      const found = users.find(user => user.user === u && user.pass === p);
+
+      if (found) {
+        if (found.activo) {
+          showMsg("🚀 Cargando Diccionario...", "loading");
+          await cargarDatos();
+          loadFavs();
+          hide(document.getElementById('loginScreen'));
+          show(document.getElementById('app'));
+          show(document.getElementById('menuMain'));
+          hide(document.getElementById('videoView'));
+        } else {
+          showMsg("🚫 Cuenta desactivada", "error");
+          btn.disabled = false;
+        }
+      } else {
+        showMsg("❌ Usuario/Pass incorrectos", "error");
+        btn.disabled = false;
+      }
+    } catch (e) {
+      showMsg("🚫 Error al cargar los archivos locales. Asegúrate de usar un servidor.", "error");
+      btn.disabled = false;
+    }
+  }
+
+  // Carga de videos con CACHE
+  async function cargarDatos() {
+    const cached = localStorage.getItem(CACHE_VIDEOS_KEY);
+    if (cached) {
+      dbVideos = JSON.parse(cached);
+      actualizarCacheEnSegundoPlano();
+    } else {
+      const resp = await fetch('videos.json');
+      dbVideos = await resp.json();
+      localStorage.setItem(CACHE_VIDEOS_KEY, JSON.stringify(dbVideos));
+    }
+  }
+
+  async function actualizarCacheEnSegundoPlano() {
+    try {
+      const resp = await fetch('videos.json');
+      const data = await resp.json();
+      localStorage.setItem(CACHE_VIDEOS_KEY, JSON.stringify(data));
+    } catch(e) {}
+  }
+
+  // Categorías
+  let currentCat = null;
+
+  function ir(cat) {
+    currentCat = cat;
+    hide(document.getElementById('menuMain'));
+    show(document.getElementById('videoView'));
+    document.getElementById('sectionTitle').innerText = cat.toUpperCase();
+    renderCategoryGrid();
+    window.scrollTo(0, 0);
+  }
+
+  function renderCategoryGrid() {
+    const grid = document.getElementById('gridVids');
+    grid.innerHTML = "";
+    const catLower = (currentCat || "").toLowerCase();
+    const list = dbVideos.filter(v => v.cat.toLowerCase() === catLower);
+
+    if (!list.length) {
+      const empty = document.createElement('div');
+      empty.className = "no-results";
+      empty.innerHTML = "No hay elementos.";
+      grid.appendChild(empty);
+      return;
+    }
+
+    list.forEach(v => grid.appendChild(createCard(v)));
+  }
+
+  function createCard(v) {
+    const btn = document.createElement('div');
+    btn.className = `item-vid ${v.destacado === "SI" ? 'featured' : ''}`;
+    btn.onclick = (ev) => { if (!ev.target.classList.contains('fav-btn')) play(v.id_drive); };
+
+    const starOn = isFav(v.id_drive);
+    btn.innerHTML = `
+      <div class="fav-btn ${starOn ? 'on' : ''}" onclick="event.stopPropagation(); toggleFav('${v.id_drive}')">${starOn ? '⭐' : '☆'}</div>
+      <i>${v.emoji || "🎬"}</i>
+      <span>${v.nombre}</span>
+    `;
+    return btn;
+  }
+
+  function volver() {
+    hide(document.getElementById('videoView'));
+    show(document.getElementById('menuMain'));
+    window.scrollTo(0, 0);
+  }
+
+  // FAVORITOS EN HOME
+  function toggleHomeFavs() {
+    homeFavsOpen = !homeFavsOpen;
+    const grid = document.getElementById('favHomeGrid');
+    const btn = document.getElementById('favHomeBtn');
+
+    if (homeFavsOpen) {
+      renderHomeFavs();
+      show(grid);
+      btn.innerText = "OCULTAR";
+      btn.classList.add("on");
+    } else {
+      hide(grid);
+      btn.innerText = "VER";
+      btn.classList.remove("on");
+    }
+  }
+
+  function renderHomeFavs() {
+    const grid = document.getElementById('favHomeGrid');
+    grid.innerHTML = "";
+    const list = dbVideos.filter(v => isFav(v.id_drive));
+
+    if (!list.length) {
+      grid.innerHTML = "<div class='no-results'>Todavía no agregaste favoritos.</div>";
+      return;
+    }
+
+    list.forEach(v => grid.appendChild(createCard(v)));
+  }
+
+  // Modal y Video
+  let currentVideoId = null;
+
+  function play(id) {
+    currentVideoId = id;
+    const modal = document.getElementById('modal');
+    modal.style.display = 'flex';
+    modal.classList.remove('hidden');
+    modal.focus();
+
+    const cont = document.getElementById('videoContainer');
+    cont.innerHTML = `<button id="playBtn" style="position:absolute; inset:0; background:#000; color:white; font-size:22px; border:none; cursor:pointer; z-index:30001;">▶ Reproducir video</button>`;
+    
+    document.getElementById('playBtn').onclick = () => {
+      cont.innerHTML = `<div class="video-shield"></div><iframe allowfullscreen src="https://drive.google.com/file/d/${currentVideoId}/preview"></iframe>`;
+    };
+  }
+
+  function cls() {
+    document.getElementById('modal').style.display = 'none';
+    document.getElementById('modal').classList.add('hidden');
+    document.getElementById('videoContainer').innerHTML = "";
+    currentVideoId = null;
+  }
+
+  // Cerrar modal
+  document.getElementById('modal').addEventListener('click', (e) => { if (e.target.id === "modal") cls(); });
+  window.addEventListener('keydown', (e) => { if (e.key === "Escape") cls(); });
+
+  function showMsg(txt, type) {
+    const m = document.getElementById('statusMsg');
+    m.innerHTML = txt;
+    m.style.display = "block";
+    m.className = (type === "error") ? "error-style" : "loading-style";
+  }
+
+  // Buscador
+  document.getElementById('mainSearchIn').addEventListener('input', (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    performSearch(q);
+  });
+
+  function performSearch(q) {
+    const wrap = document.getElementById('searchResultsWrap');
+    const grid = document.getElementById('searchGrid');
+    if (!q) { hide(wrap); return; }
+    grid.innerHTML = "";
+    const filtrado = dbVideos.filter(v => v.nombre.toLowerCase().includes(q)).slice(0, 120);
+    if (!filtrado.length) grid.innerHTML = "<div class='no-results'>No se encontró nada.</div>";
+    filtrado.forEach(v => grid.appendChild(createCard(v)));
+    show(wrap);
+  }
+</script>
+</body>
+</html>

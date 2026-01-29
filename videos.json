@@ -1,0 +1,2090 @@
+[
+  {
+    "id_video": "abc_00",
+    "cat": "abc",
+    "nombre": "PALABRA ABECEDARIO",
+    "id_drive": "1157OfkJui6ULq8N6Ufl2njB4DxwQJEYe",
+    "emoji": "📖",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "abc_01",
+    "cat": "abc",
+    "nombre": "A",
+    "id_drive": "1Jrmd-XALjFvpZUOSa6Odb0RUYW7YFwvD",
+    "emoji": "✈️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_02",
+    "cat": "abc",
+    "nombre": "B",
+    "id_drive": "15buqgvshpqCwWO86tRZbsLk-aADIOdym",
+    "emoji": "🛳️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_03",
+    "cat": "abc",
+    "nombre": "C",
+    "id_drive": "1jI_PL2dc2ul9xXXqH-FySMHXjZQOEL7-",
+    "emoji": "🏠",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_04",
+    "cat": "abc",
+    "nombre": "CH",
+    "id_drive": "1GD1V0W1h6pIvXKRTE100rFvO6-BmDxF-",
+    "emoji": "🍫",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_05",
+    "cat": "abc",
+    "nombre": "D",
+    "id_drive": "12fRzT8R3VzW0FP_OOcECIbon3yrlEIrN",
+    "emoji": "🎲",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_06",
+    "cat": "abc",
+    "nombre": "E",
+    "id_drive": "1wYkFSd-erU30U2IIuoNyC0pgFMIIs7Xg",
+    "emoji": "🐘",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_07",
+    "cat": "abc",
+    "nombre": "F",
+    "id_drive": "1c3nM5dly-q7391k7RrTZIZFMrs_Z3xyf",
+    "emoji": "🌻",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_08",
+    "cat": "abc",
+    "nombre": "G",
+    "id_drive": "1pW7v24ul7C2Cer31hbbA-AdYz8QGPm7w",
+    "emoji": "🐱",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_09",
+    "cat": "abc",
+    "nombre": "H",
+    "id_drive": "14Xp87twH5ZX2wq93TiS6I5Ejtq8kHwvd",
+    "emoji": "🍦",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_10",
+    "cat": "abc",
+    "nombre": "I",
+    "id_drive": "18frDaMvK1iWkmzHKP5s30_fYYQQlMcJj",
+    "emoji": "🏝️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_11",
+    "cat": "abc",
+    "nombre": "J",
+    "id_drive": "1hrtRBxcQou7wIOHdMMWsqF_yPmiEnbu0",
+    "emoji": "🦒",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_12",
+    "cat": "abc",
+    "nombre": "K",
+    "id_drive": "1rwAEbCk4uNrZ4Njh7AASRoNxQnCMiGZd",
+    "emoji": "🥝",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_13",
+    "cat": "abc",
+    "nombre": "L",
+    "id_drive": "15kym8vsH0WJhKqaIVkpfcw3Jnn0KdUum",
+    "emoji": "🦁",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_14",
+    "cat": "abc",
+    "nombre": "LL",
+    "id_drive": "1Gv0fnL7EljqkMNxiV1MDFXrhTcWOABck",
+    "emoji": "🔑",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_15",
+    "cat": "abc",
+    "nombre": "M",
+    "id_drive": "1br_LwAiHSCnr3DgaCv39pO6jKtwfZj3x",
+    "emoji": "🐒",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_16",
+    "cat": "abc",
+    "nombre": "N",
+    "id_drive": "185a3F67LYbpBGG0BdOccZcy-UXy-jBgL",
+    "emoji": "☁️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_17",
+    "cat": "abc",
+    "nombre": "Ñ",
+    "id_drive": "1SwDWPm87Fup9Evx4q6_8Z2gA8Md-8DmA",
+    "emoji": "Ñ",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_18",
+    "cat": "abc",
+    "nombre": "O",
+    "id_drive": "1rXet8HHHOxiUM9n7SvgFzN37b7b21Quy",
+    "emoji": "🐻",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_19",
+    "cat": "abc",
+    "nombre": "P",
+    "id_drive": "1j-sAZr8M2k_rig7RvEIcFkI7Hpx8AIyn",
+    "emoji": "🍐",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_20",
+    "cat": "abc",
+    "nombre": "Q",
+    "id_drive": "1P5JjMqJmlUKH6We5ruzJyhw-UJ67W2hG",
+    "emoji": "🧀",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_21",
+    "cat": "abc",
+    "nombre": "R",
+    "id_drive": "1teKw70uPzKPEAmOyoh0E-ISA876RFrIu",
+    "emoji": "🐭",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_22",
+    "cat": "abc",
+    "nombre": "RR",
+    "id_drive": "1uGWW6r27bJCuh03SSNgJ5Xj4kERTVRzJ",
+    "emoji": "🇷🇷",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_23",
+    "cat": "abc",
+    "nombre": "S",
+    "id_drive": "1-bBWlnkqsKce0fXmLwO6W7TO-dA2aBsP",
+    "emoji": "☀️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_24",
+    "cat": "abc",
+    "nombre": "T",
+    "id_drive": "1fSk4Q_k_OXmBYcJsoSemA1Xmh5_iHu7Q",
+    "emoji": "🐢",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_25",
+    "cat": "abc",
+    "nombre": "U",
+    "id_drive": "1V4WQe4hnz35OyCi418ojPoNY7Qw46Kjb",
+    "emoji": "🍇",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_26",
+    "cat": "abc",
+    "nombre": "V",
+    "id_drive": "1TOoHSWoEcCQRFFv9pdR28KKXG_KU4Vqx",
+    "emoji": "🐮",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_27",
+    "cat": "abc",
+    "nombre": "W",
+    "id_drive": "1dkgTRPSFzg_jNjLhbQUMD0Ct3cLtx_UH",
+    "emoji": "🧇",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_28",
+    "cat": "abc",
+    "nombre": "X",
+    "id_drive": "16OzViGrfv0oqdHWzccTgCH4f2VADXxg0",
+    "emoji": "✖️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_29",
+    "cat": "abc",
+    "nombre": "Y",
+    "id_drive": "1ne-w2dN51DfihTTOF4aJgvhZlejM9Pzg",
+    "emoji": "🪀",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "abc_30",
+    "cat": "abc",
+    "nombre": "Z",
+    "id_drive": "1FuRBkC76OYUNGrHTmsbA5ZQjU-dZUnXi",
+    "emoji": "👟",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "sal_01",
+    "cat": "saludos",
+    "nombre": "HOLA",
+    "id_drive": "1lCOXo4M1aFy4Cygz-eVo6W_CMoMJ3Dy7",
+    "emoji": "👋",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "sal_02",
+    "cat": "saludos",
+    "nombre": "¿CÓMO ESTÁS?",
+    "id_drive": "19uieWKkfSlxzxceMzEH2vvvh5Wgimrp5",
+    "emoji": "❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "sal_03",
+    "cat": "saludos",
+    "nombre": "BIEN/MAL",
+    "id_drive": "1JxZ0AUc3Z5EVswSxKTEwxmju6LFkID1A",
+    "emoji": "🌗",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "sal_04",
+    "cat": "saludos",
+    "nombre": "HAY/NO HAY",
+    "id_drive": "1KNf8mBF63Bpu_XQL1U6j237QnWsco5zH",
+    "emoji": "📦",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "sal_05",
+    "cat": "saludos",
+    "nombre": "NOMBRE / SEÑA / APELLIDO",
+    "id_drive": "1KdcoSKvaaaZR52hpDpBsqpDS9r7GVgce",
+    "emoji": "🆔",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "col_00",
+    "cat": "colores",
+    "nombre": "PALABRA COLORES",
+    "id_drive": "1WQmfZCE2pCGrkLdC8PYG4ojqcnHR-ZKK",
+    "emoji": "🎨",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "col_01",
+    "cat": "colores",
+    "nombre": "AMARILLO",
+    "id_drive": "1ngX9yGmuXob8X7Bf40I7TjuBt-D_4iLt",
+    "emoji": "☀️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_02",
+    "cat": "colores",
+    "nombre": "NARANJA",
+    "id_drive": "18CqtRfeyseHIxumN53MPO4-aC1LJxfiV",
+    "emoji": "🍊",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_03",
+    "cat": "colores",
+    "nombre": "AZUL",
+    "id_drive": "1Oyf0Sf8w7HayllP9nJEZFeLDoJzbwigo",
+    "emoji": "🌊",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_04",
+    "cat": "colores",
+    "nombre": "BLANCO",
+    "id_drive": "1JUI0knmA6WoET_f10abd850sxHQ-xtWJ",
+    "emoji": "☁️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_05",
+    "cat": "colores",
+    "nombre": "CELESTE",
+    "id_drive": "10uI2sk4pEAI0KuOUrQQajx8vHTbo7Jtp",
+    "emoji": "🇦🇷",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_06",
+    "cat": "colores",
+    "nombre": "CLARO",
+    "id_drive": "13P_hSrKcUjihg1pDX567WHIhp3ZPKxAC",
+    "emoji": "💡",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_07",
+    "cat": "colores",
+    "nombre": "DORADO",
+    "id_drive": "1r4HFwUs3bqmKYMXRuF5guK1cK8-NjRf3",
+    "emoji": "✨",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_08",
+    "cat": "colores",
+    "nombre": "FUERTE",
+    "id_drive": "1shpsVZuwOeD3LO4bPJEhua5XAistGy3b",
+    "emoji": "💪",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_09",
+    "cat": "colores",
+    "nombre": "MARRÓN",
+    "id_drive": "1mqSIgelvI7Ai8_Va3wWHytYTbm6BmDrK",
+    "emoji": "🪵",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_10",
+    "cat": "colores",
+    "nombre": "MÁS O MENOS",
+    "id_drive": "1z5OI__xt331SPS7FWfS_SKpk5bGlBdM2",
+    "emoji": "⚖️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_11",
+    "cat": "colores",
+    "nombre": "MEZCLADOS",
+    "id_drive": "1_ZzUrPaun96n6Y5ONZKjzmCMPde8liqG",
+    "emoji": "🌪️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_12",
+    "cat": "colores",
+    "nombre": "NEGRO",
+    "id_drive": "1eTMknyUlK3JwkuDzehnzr-CfWbSBTh6u",
+    "emoji": "🌑",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_13",
+    "cat": "colores",
+    "nombre": "OPACO",
+    "id_drive": "1rG3FUZMP331MJw0QJJLDX7F2-6-GG21l",
+    "emoji": "🌫️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_14",
+    "cat": "colores",
+    "nombre": "OSCURO",
+    "id_drive": "1NPlCRYIIFtnHxO4DXBmTYQ6cYgiu_VzP",
+    "emoji": "🌃",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_15",
+    "cat": "colores",
+    "nombre": "ROJO",
+    "id_drive": "1sdDxQB53aldTIwr4kDYjnajdyXMBdnLa",
+    "emoji": "🍎",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_16",
+    "cat": "colores",
+    "nombre": "SUAVE",
+    "id_drive": "1IuiBO9No5gP93asSDCJZXGzjuyJlIWi0",
+    "emoji": "🧶",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_17",
+    "cat": "colores",
+    "nombre": "TRANSPARENTE",
+    "id_drive": "1jbdcZFzfwdHe0Suv5VTVI8_ULzFaKzmp",
+    "emoji": "💎",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_18",
+    "cat": "colores",
+    "nombre": "VERDE",
+    "id_drive": "1rgnU3jEMox0rzno0ddBJnjodSFK1CX12",
+    "emoji": "🌿",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "col_19",
+    "cat": "colores",
+    "nombre": "VIOLETA",
+    "id_drive": "1RN4HX2yYdakBqOCR8_L69KID6o-FIoZc",
+    "emoji": "🍇",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_00",
+    "cat": "familia",
+    "nombre": "PALABRA FAMILIA",
+    "id_drive": "1x_jPdNne9KwuQ2xLhV65k1C0cjc3tO-D",
+    "emoji": "🏠",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "fam_01",
+    "cat": "familia",
+    "nombre": "ABUELO",
+    "id_drive": "17L8mNCq6_AG2VcXgR8z2GyPT15QhJfOK",
+    "emoji": "👴",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_02",
+    "cat": "familia",
+    "nombre": "CUÑADO",
+    "id_drive": "1mHRXVkIg1Gd6AU4xar3Eg7SBvw4plzGk",
+    "emoji": "👨‍💼",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_03",
+    "cat": "familia",
+    "nombre": "HERMANO",
+    "id_drive": "1tD7FZOUPNcSL7xC_kMtg1O5aoDh90vQu",
+    "emoji": "👦",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_04",
+    "cat": "familia",
+    "nombre": "HIJO",
+    "id_drive": "1eJDWPhKLOlDMaflXzzXvmLi-9ffSAxS7",
+    "emoji": "👶",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_05",
+    "cat": "familia",
+    "nombre": "HOMBRE",
+    "id_drive": "1HZq_G6MaiKL24cBAC6_XO4N58q7UJiXj",
+    "emoji": "👨",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_06",
+    "cat": "familia",
+    "nombre": "MAMÁ",
+    "id_drive": "1warUhnsBcfdjFtU3beO7kTIbqHpbfPkR",
+    "emoji": "👩",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_07",
+    "cat": "familia",
+    "nombre": "MUJER",
+    "id_drive": "1_tUQmEhtwATvu-SSF-RctQcBWNb8_bU_",
+    "emoji": "👩",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_08",
+    "cat": "familia",
+    "nombre": "PAPÁ",
+    "id_drive": "1CFkGgr5L9bNqkrIvgV0rjGIthcfc2Qa1",
+    "emoji": "👨",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_09",
+    "cat": "familia",
+    "nombre": "PRIMO",
+    "id_drive": "13kWwTs5aL1gmjirHjXcehezj5GeeDQcj",
+    "emoji": "🧑‍🤝‍🧑",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_10",
+    "cat": "familia",
+    "nombre": "SOBRINO",
+    "id_drive": "16_fj1q-71h0C5emGt9PzjTc-8yA0g9xU",
+    "emoji": "🧒",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_11",
+    "cat": "familia",
+    "nombre": "SUEGRO",
+    "id_drive": "1KX-c8UEsAsAPIOcMggfP5fWp0IUo0Q6l",
+    "emoji": "🧔",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "fam_12",
+    "cat": "familia",
+    "nombre": "TÍO",
+    "id_drive": "1hFzn-y5rf6NMc86NzMy2GRc60VH9H0ZD",
+    "emoji": "👨‍🦳",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "pro_01",
+    "cat": "pronombres",
+    "nombre": "YO",
+    "id_drive": "13OMBCPV01qarYJjZk7mkZJleQm7ceAA1",
+    "emoji": "🙋‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "pro_02",
+    "cat": "pronombres",
+    "nombre": "VOS",
+    "id_drive": "1kCuEUQhM2ICKbVJ198rBM-_Q3HqgP0Zu",
+    "emoji": "👈",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "pro_03",
+    "cat": "pronombres",
+    "nombre": "ÉL",
+    "id_drive": "1DffT5B4Nby4WtbUIRp-RsEcY-Zib_WUs",
+    "emoji": "👤",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "pro_04",
+    "cat": "pronombres",
+    "nombre": "NOSOTROS",
+    "id_drive": "1OCeIheqVDaRgdc5WcGOzQrmK-jTFJr6M",
+    "emoji": "👨‍👩‍👧",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "pro_05",
+    "cat": "pronombres",
+    "nombre": "ELLOS",
+    "id_drive": "1PjSaZKaTgWgk_SDtRXg7nfBJGEpO4Id2",
+    "emoji": "👥",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "pro_06",
+    "cat": "pronombres",
+    "nombre": "TODOS",
+    "id_drive": "1Do9Cgr3UdGQgVAasMk4o1-ZByFZ0-q_K",
+    "emoji": "🌎",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_00",
+    "cat": "meses",
+    "nombre": "PALABRA AÑO",
+    "id_drive": "1Z-AgPfNWK8R2gs1s1-LvudmW9EtdFa0Q",
+    "emoji": "🗓️",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "mes_01",
+    "cat": "meses",
+    "nombre": "PALABRA MESES",
+    "id_drive": "1qNlL-fbt4e_DLQEuUCAT6km0V_tYi-SC",
+    "emoji": "📅",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "mes_02",
+    "cat": "meses",
+    "nombre": "ENERO",
+    "id_drive": "1q_ibKYknMS9lTFxlBQld-hHoSYCo0eLp",
+    "emoji": "☀️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_03",
+    "cat": "meses",
+    "nombre": "FEBRERO",
+    "id_drive": "1I8I4n9Cl0m_9-H4hUeztkwxbmtYlp0hs",
+    "emoji": "🎭",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_04",
+    "cat": "meses",
+    "nombre": "MARZO",
+    "id_drive": "1dPDYw2f6VPY7czws1er9Lbcbn7OZnTlc",
+    "emoji": "🎒",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_05",
+    "cat": "meses",
+    "nombre": "ABRIL",
+    "id_drive": "1_4kEkKYMedcPXMl6skZwci3qs2M9WDOM",
+    "emoji": "🌦️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_06",
+    "cat": "meses",
+    "nombre": "MAYO",
+    "id_drive": "1DeK5QeN0zxaxygCSJbq_0jyLvvzGj17Y",
+    "emoji": "🇦🇷",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_07",
+    "cat": "meses",
+    "nombre": "JUNIO",
+    "id_drive": "1UthkHdBZZdXCUHk3ppbds8uwK5HVZz1h",
+    "emoji": "🧣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_08",
+    "cat": "meses",
+    "nombre": "JULIO",
+    "id_drive": "1i5A1otxaH8IBmfkitC3Ek0aTISbSwh-i",
+    "emoji": "❄️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_09",
+    "cat": "meses",
+    "nombre": "AGOSTO",
+    "id_drive": "1uPJzlS-tSPjuZTHTF5LcFQRBR6Y30FOL",
+    "emoji": "🧒",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_10",
+    "cat": "meses",
+    "nombre": "SEPTIEMBRE",
+    "id_drive": "1v8IpGRKj_fIaPfNtm9bUN6vwEBYFuBH6",
+    "emoji": "🌸",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_11",
+    "cat": "meses",
+    "nombre": "OCTUBRE",
+    "id_drive": "1Lz6FkifHiCvTrEcUxIx_KFX4JqC_HGg0",
+    "emoji": "🎃",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_12",
+    "cat": "meses",
+    "nombre": "NOVIEMBRE",
+    "id_drive": "1_lyUEkeVvNlr2WKtD9NCGE8ljH48U7My",
+    "emoji": "🗳️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "mes_13",
+    "cat": "meses",
+    "nombre": "DICIEMBRE",
+    "id_drive": "1c1PQK-QejbCZ1iIlLx5pih-tkIFuPUgv",
+    "emoji": "🎄",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_00",
+    "cat": "tiempo",
+    "nombre": "PALABRA TIEMPO",
+    "id_drive": "1iBwG_WSpdx63u4-KFGIRdrnV_kEjfQVC",
+    "emoji": "⏱️",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "tie_01",
+    "cat": "tiempo",
+    "nombre": "ACORTAR",
+    "id_drive": "1KQ3VjIdLwHGjgfCEWZklI4NErrixexVP",
+    "emoji": "✂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_02",
+    "cat": "tiempo",
+    "nombre": "ACOSTARSE",
+    "id_drive": "17rCaQaK7PAAsKTwrIqyq4gtgeYWNzknW",
+    "emoji": "🛌",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_03",
+    "cat": "tiempo",
+    "nombre": "AHORA",
+    "id_drive": "1aGIItBIREuP52nY2B35dC_TGhAsVlGMc",
+    "emoji": "⏳",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_04",
+    "cat": "tiempo",
+    "nombre": "ALARGAR",
+    "id_drive": "1dSYBsF90Rtqkiv8WTYyecZ-m24pXKbMz",
+    "emoji": "📏",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_05",
+    "cat": "tiempo",
+    "nombre": "AMANECER",
+    "id_drive": "15-kvu93RrNyZbWWYEn-b2k1ArqGwqQBQ",
+    "emoji": "🌅",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_06",
+    "cat": "tiempo",
+    "nombre": "ANOCHECER",
+    "id_drive": "1bTJmq3gGn2XFj1rtOJkhPr6ACdxqeIQk",
+    "emoji": "🌃",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_07",
+    "cat": "tiempo",
+    "nombre": "AÑO",
+    "id_drive": "1aPYKO3sTBM8eqdM4h3iWSgMgWfJ0axEr",
+    "emoji": "🗓️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_08",
+    "cat": "tiempo",
+    "nombre": "ATARDECER",
+    "id_drive": "1T1wzQ0tI3bznbOiDPmi8V63tWPrMioed",
+    "emoji": "🌆",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_09",
+    "cat": "tiempo",
+    "nombre": "AYER",
+    "id_drive": "17mlYeim3Ja2jtlmGOtc5HkVN_9mg1clY",
+    "emoji": "⏪",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_10",
+    "cat": "tiempo",
+    "nombre": "DESPUÉS",
+    "id_drive": "1kph5bWVdT4mJq9BwCPFQWqW4VrV5KrW9",
+    "emoji": "⏩",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_11",
+    "cat": "tiempo",
+    "nombre": "DÍA",
+    "id_drive": "1AZ25KDF5norFggoKwLUQr46iGctr-8hN",
+    "emoji": "☀️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_12",
+    "cat": "tiempo",
+    "nombre": "HOY",
+    "id_drive": "1i8pZQHmmWEvdNYXwmzQsNyi0-fYqT3QA",
+    "emoji": "📍",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_13",
+    "cat": "tiempo",
+    "nombre": "LEVANTARSE",
+    "id_drive": "1XnC592eBAysL4er7Ln7BdWvrLzNZG7S",
+    "emoji": "⏰",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_14",
+    "cat": "tiempo",
+    "nombre": "MAÑANA",
+    "id_drive": "1nAtfjiPt5h7HuITOcnpWpSWlYI1rirRC",
+    "emoji": "⏭️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_15",
+    "cat": "tiempo",
+    "nombre": "MES",
+    "id_drive": "1hvhVghFoi4ZMUoBFLEU3NNB_AQzg75Xg",
+    "emoji": "📆",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "tie_16",
+    "cat": "tiempo",
+    "nombre": "SEMANA",
+    "id_drive": "1q_SqbHwppaHfk_qLlvFGF1fcliKJRKUq",
+    "emoji": "📅",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_00",
+    "cat": "numeros",
+    "nombre": "PALABRA NÚMEROS",
+    "id_drive": "1xM4awR52NyxGtzsxnwhmAK9Ql3rTSRuo",
+    "emoji": "🔢",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "num_01",
+    "cat": "numeros",
+    "nombre": "1️⃣ AL 7️⃣",
+    "id_drive": "1KUXrAY4E5N31RLuHkK6yIyjIPJkww-4J",
+    "emoji": "🔢",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "num_02",
+    "cat": "numeros",
+    "nombre": "7",
+    "id_drive": "1kmzKyaQ7UO1Bq9F_1h7EPRyTfj3iGRxF",
+    "emoji": "7️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_03",
+    "cat": "numeros",
+    "nombre": "8",
+    "id_drive": "14OxdvGa05iXdJM5vlty2zzavBA6Mqf4O",
+    "emoji": "8️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_04",
+    "cat": "numeros",
+    "nombre": "9",
+    "id_drive": "1_JLVPWTdzSkpRzEPt7UXT3ABTJvIzNjt",
+    "emoji": "9️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_05",
+    "cat": "numeros",
+    "nombre": "10",
+    "id_drive": "1pTTiRmYOrv0mSqd6hg-mbghG94rzlS5P",
+    "emoji": "🔟",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_06",
+    "cat": "numeros",
+    "nombre": "11",
+    "id_drive": "1-9F3hKQmeH5rDuW7dAr0tCp0SLJsaCQg",
+    "emoji": "1️⃣1️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_07",
+    "cat": "numeros",
+    "nombre": "12",
+    "id_drive": "146RColbyxoF1BfWbTYCngk8Jwy-YHNx0",
+    "emoji": "1️⃣2️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_08",
+    "cat": "numeros",
+    "nombre": "13",
+    "id_drive": "1k8Ly5DFHPd__b_Xy40TX48bdg9UavIJ6",
+    "emoji": "1️⃣3️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_09",
+    "cat": "numeros",
+    "nombre": "14",
+    "id_drive": "1asXPA8TZGNl2IjTI4T4Nb1O5BsKeYQkt",
+    "emoji": "1️⃣4️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_10",
+    "cat": "numeros",
+    "nombre": "15",
+    "id_drive": "1tVEcdlKCPg6Lk6Wys6oXqDyP5n-D1xLa",
+    "emoji": "1️⃣5️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_11",
+    "cat": "numeros",
+    "nombre": "16",
+    "id_drive": "1JpI8MutAn4I4GTqvXhJYrkAzQGeRl43F",
+    "emoji": "1️⃣6️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_12",
+    "cat": "numeros",
+    "nombre": "17",
+    "id_drive": "16u9F6QZhCobEMHHlwvk3Q3K7unrgNecn",
+    "emoji": "1️⃣7️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_13",
+    "cat": "numeros",
+    "nombre": "18",
+    "id_drive": "18cFXQkikUg042BS9llUvWiQF6-C1qXmO",
+    "emoji": "1️⃣8️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_14",
+    "cat": "numeros",
+    "nombre": "19",
+    "id_drive": "1xyU2i0kTtldK-AuAtoNto5aGHZDE-iSZ",
+    "emoji": "1️⃣9️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_15",
+    "cat": "numeros",
+    "nombre": "20",
+    "id_drive": "15VAr5FtQbIImrsm7qPglwZta6ucU5oCl",
+    "emoji": "2️⃣0️⃣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_16",
+    "cat": "numeros",
+    "nombre": "20 AL 90",
+    "id_drive": "1fmXdBqGy3Tux3usnzgHi3ICjMnw_9Gz5",
+    "emoji": "🔢",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "num_17",
+    "cat": "numeros",
+    "nombre": "CIEN",
+    "id_drive": "1T6aDZbqyuomt6zXXwNrUxINDDHHIY8IN",
+    "emoji": "💯",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_18",
+    "cat": "numeros",
+    "nombre": "MIL",
+    "id_drive": "1HR-13ohYSAF1Ixp8rKJTg1ayfJfBWr3F",
+    "emoji": "🔢",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "num_19",
+    "cat": "numeros",
+    "nombre": "MILLÓN",
+    "id_drive": "1C2qFPTPza884QNLrOgZz1aX1czbJpJRf",
+    "emoji": "💰",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_00",
+    "cat": "casa",
+    "nombre": "COSAS DE LA CASA",
+    "id_drive": "1RCjj02HOCtsXkAOJdoBVKDYgkaYquRBl",
+    "emoji": "🏠",
+    "destacado": "SI"
+  },
+  {
+    "id_video": "cas_01",
+    "cat": "casa",
+    "nombre": "CASA - EDIFICIO",
+    "id_drive": "1fpEBihhnPnNh1Y8OKEmbQtgzfQGqIxC5",
+    "emoji": "🏢",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_02",
+    "cat": "casa",
+    "nombre": "EDIFICIO",
+    "id_drive": "1GXE3aliMa5iSsE92VBeSSrF2poqCHxSC",
+    "emoji": "❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_03",
+    "cat": "casa",
+    "nombre": "CASA DOBLE",
+    "id_drive": "1am3X_YFuWlMjfHGhbUHXfZRsp86Olx0N",
+    "emoji": "❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_04",
+    "cat": "casa",
+    "nombre": "PUERTA",
+    "id_drive": "1RrtlVvW7HndK4fAD6yBlbq_8iEQWYYqh",
+    "emoji": "🚪",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_05",
+    "cat": "casa",
+    "nombre": "VENTANA",
+    "id_drive": "1yNWFHZo8QMI6grEp5amuBhUacDLHk-e6",
+    "emoji": "🪟",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_06",
+    "cat": "casa",
+    "nombre": "COCINA",
+    "id_drive": "1jk83i08isO-gJJBS7dZNMx64THLa9_C7",
+    "emoji": "🍳",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_07",
+    "cat": "casa",
+    "nombre": "MUEBLE",
+    "id_drive": "18VdfkJms0rH7eGBVdWPEh8I8P2ZMWw4e",
+    "emoji": "🛋️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_08",
+    "cat": "casa",
+    "nombre": "SILLA",
+    "id_drive": "10kHi5kGnpwX9zQaamqnjo_X1ZIjGLlgj",
+    "emoji": "🪑",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_09",
+    "cat": "casa",
+    "nombre": "DORMITORIO",
+    "id_drive": "1lK348oGpKDsNhrb8MSGPBJKBOd_K3l7J",
+    "emoji": "🛌",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_10",
+    "cat": "casa",
+    "nombre": "MUEBLE CAMA",
+    "id_drive": "1ba-RvhmH2PxlsEN0vB6Ddgbm5-devaOm",
+    "emoji": "🛏️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_11",
+    "cat": "casa",
+    "nombre": "ROPERO",
+    "id_drive": "1aUR4OiOCai3neHk_LbUEocDmJiVUDjbb",
+    "emoji": "👗",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_12",
+    "cat": "casa",
+    "nombre": "BAÑO",
+    "id_drive": "1RHaQeKPnxePWcfHU0uZOO3jV7Aa8ea73",
+    "emoji": "🚽",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_13",
+    "cat": "casa",
+    "nombre": "TOALLA",
+    "id_drive": "1E1iR_9q4mrYFrNMwjo9VZU3G3iMPLcmQ",
+    "emoji": "🚿",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_14",
+    "cat": "casa",
+    "nombre": "DUCHA",
+    "id_drive": "1crMrYn60yLjn6QTUEJhMAJB6lZz-kfea",
+    "emoji": "🧼",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_15",
+    "cat": "casa",
+    "nombre": "JABÓN",
+    "id_drive": "1Gdlc33QIpytIkZOOkJvkPjbbdFeXZPeE",
+    "emoji": "🧼",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_16",
+    "cat": "casa",
+    "nombre": "AGUA FRIA/CALIENTE",
+    "id_drive": "1LB-qaPYvCqJNcTTSTgBIXdXqu3XGPBnp",
+    "emoji": "💧",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_17",
+    "cat": "casa",
+    "nombre": "PAPEL HIGIÉNICO",
+    "id_drive": "1jgtfqP-udcddY0qN6UtxCxm-hq-klu0S",
+    "emoji": "🧻",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_18",
+    "cat": "casa",
+    "nombre": "LAVADERO",
+    "id_drive": "1TH-T5LFqz-7LYLGTcUzDLmIeNHW1mEnq",
+    "emoji": "🧺",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_19",
+    "cat": "casa",
+    "nombre": "DATO 20",
+    "id_drive": "1fEWLh439Jn9z9Bf2Wk48V-W5j2T8f5FJ",
+    "emoji": "❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_20",
+    "cat": "casa",
+    "nombre": "PLANCHAR ROPA",
+    "id_drive": "17E8PT59IIot9NNp5mmyp7bR3zktfAl8H",
+    "emoji": "💨",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_21",
+    "cat": "casa",
+    "nombre": "DATO 22",
+    "id_drive": "1fI1Ns88I82Ylv5I874TjXCE93iM6gUPf",
+    "emoji": "❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_22",
+    "cat": "casa",
+    "nombre": "HOGAR FUEGO",
+    "id_drive": "1p5Aa5XdEIGZZjJdBYrLVzFVbs78PE-na",
+    "emoji": "❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_23",
+    "cat": "casa",
+    "nombre": "TV TELEVISOR",
+    "id_drive": "1C9bwiRj6PaMwxBGAUdZfT-oy8M4LA-6p",
+    "emoji": "📺",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_24",
+    "cat": "casa",
+    "nombre": "SILLÓN",
+    "id_drive": "13SAcCEjaIM2jR_Ns0cUA7J8wYzlKJlxp",
+    "emoji": "❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_25",
+    "cat": "casa",
+    "nombre": "ESCALERA",
+    "id_drive": "1TeNBv9YFX-MbRoro4agI_cZ9qylOgMlh",
+    "emoji": "❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_26",
+    "cat": "casa",
+    "nombre": "AFUERA",
+    "id_drive": "1ec6Bx3v4ldG0FBAG1V9B4SQoYbAECMAA",
+    "emoji": "❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "cas_27",
+    "cat": "casa",
+    "nombre": "GARAGE AUTO",
+    "id_drive": "18BA3MrnRkxUA1PA7OhC7p58L_SGsOYI6",
+    "emoji": "🚗",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_01",
+    "cat": "adjetivos",
+    "nombre": "Orgulloso",
+    "id_drive": "15b2ROpDlI5cdGq8ACjXZJnJvVMEED9lB",
+    "emoji": "😤",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_02",
+    "cat": "adjetivos",
+    "nombre": "Inteligente",
+    "id_drive": "1yuQ5ysye_61EzEVM8bWbd2ovhPst3YtX",
+    "emoji": "🤓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_03",
+    "cat": "adjetivos",
+    "nombre": "Tonto",
+    "id_drive": "1RjORPahGJ57ZJRJwQtkL_Ip81Bbafhhc",
+    "emoji": "🤡",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_04",
+    "cat": "adjetivos",
+    "nombre": "Angustia",
+    "id_drive": "1Lu40b1diUu0Os5VxNTbRix-C9Rfq0tbz",
+    "emoji": "😰",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_05",
+    "cat": "adjetivos",
+    "nombre": "Demora",
+    "id_drive": "1RJ9gSx46DcdmkTTcn4dxRismP7wCfIAr",
+    "emoji": "⏳",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_06",
+    "cat": "adjetivos",
+    "nombre": "6. IMPORTANTE",
+    "id_drive": "1IB8HXseQ_yJ7PDZzf_akd-ffP4dc3kTv",
+    "emoji": "⚠️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_07",
+    "cat": "adjetivos",
+    "nombre": "7. Adjetivo",
+    "id_drive": "1Gn2x-cu_O3IrLrrL7ioRZApACbmUwcOM",
+    "emoji": "🏷️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_08",
+    "cat": "adjetivos",
+    "nombre": "8. BUENO/MALO",
+    "id_drive": "1g7GpZ4nlech4HgLMh2nfsa5jdOKh3Z7y",
+    "emoji": "👍👎",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_09",
+    "cat": "adjetivos",
+    "nombre": "9. Doble cara",
+    "id_drive": "1yGaI4akQazqmZkymf-x3EAC6gQaPU7y0",
+    "emoji": "🎭",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_10",
+    "cat": "adjetivos",
+    "nombre": "10. Amable",
+    "id_drive": "10pLJNwZk4U26IHrQLFLqu-OOUZxCzuki",
+    "emoji": "😊",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_11",
+    "cat": "adjetivos",
+    "nombre": "11. BIEN",
+    "id_drive": "19m7dLL3uIJBIjpa50_2adqpT_BBxak0Y",
+    "emoji": "👍",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_12",
+    "cat": "adjetivos",
+    "nombre": "12. MAL",
+    "id_drive": "1fNKd1ONKGgDmBOjWUcHT2XN6cMyxQ9Dp",
+    "emoji": "👎",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_13",
+    "cat": "adjetivos",
+    "nombre": "13. LIMPIO/SUCIO",
+    "id_drive": "1yo9r_-7cOrqF49H5Yi-hesZVSLHPZl-P",
+    "emoji": "✨🧹",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_14",
+    "cat": "adjetivos",
+    "nombre": "14. Nuevo , lindo, feo",
+    "id_drive": "1AsHNqZVWRcZS6_qcOgP3T4ww2Sut5_CA",
+    "emoji": "✨, 🥰, 🥴",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_15",
+    "cat": "adjetivos",
+    "nombre": "15. CARO/BARATO",
+    "id_drive": "1EhMPXwetIBoE1y0icD207LSQR9qJFQxy",
+    "emoji": "💰",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_16",
+    "cat": "adjetivos",
+    "nombre": "16. CORTO/LARGO",
+    "id_drive": "1MXQ8Ijul_PbZqyUWHCAklrArPgpLBjc7",
+    "emoji": "📏",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_17",
+    "cat": "adjetivos",
+    "nombre": "17. GRANDE/CHICO",
+    "id_drive": "1Weew1hpTxkok5w8-kVPKFS2fJFn78akH",
+    "emoji": "🐘🐭",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_18",
+    "cat": "adjetivos",
+    "nombre": "18. DULCE/AMARGO",
+    "id_drive": "1AKZqYf4L5PAedIegtppo7_8BHlkQZ6-0",
+    "emoji": "🍬",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_19",
+    "cat": "adjetivos",
+    "nombre": "19. FÁCIL/DIFÍCIL",
+    "id_drive": "1Gn4o4IpApKj4Qzxe3Ktr3_JlipZ0IW5b",
+    "emoji": "🧩",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_20",
+    "cat": "adjetivos",
+    "nombre": "20. GORDO/FLACO",
+    "id_drive": "1btoqvbue9wtGFt9PXnV2ZCSV0d_OVwGT",
+    "emoji": "⚖️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_21",
+    "cat": "adjetivos",
+    "nombre": "21. ALTO/BAJO",
+    "id_drive": "1-WihCajNRpmpOGJSlJHKXwmOY5ilk8Hm",
+    "emoji": "🪜",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_22",
+    "cat": "adjetivos",
+    "nombre": "22. Especial",
+    "id_drive": "1rE79wj5QVRgR-Ow_BxapZDj7iBWyLPXG",
+    "emoji": "🌟",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_23",
+    "cat": "adjetivos",
+    "nombre": "23. CÓMICO",
+    "id_drive": "1SVRH4LPpBREUUo7vC7PP-zUm5CkCXY3m",
+    "emoji": "😂",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_24",
+    "cat": "adjetivos",
+    "nombre": "24. DIFERENTE",
+    "id_drive": "1K7cwxcpSUQUwnmmRbpdiUoDV_S6kHem3",
+    "emoji": "🔀",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_25",
+    "cat": "adjetivos",
+    "nombre": "25. Completo",
+    "id_drive": "1ZZYv4LdHwKxLnKBgl5xVavZnmbk6VnSI",
+    "emoji": "✅",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_26",
+    "cat": "adjetivos",
+    "nombre": "26. Orgulloso 2",
+    "id_drive": "14FvxgNc_DjG0ciKIEJfK7EjhH-Vi8sLb",
+    "emoji": "😎",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_27",
+    "cat": "adjetivos",
+    "nombre": "27. Verguenza",
+    "id_drive": "1M-G5Te5JS8J-HEj3mRIDBJ36lAp1_TOP",
+    "emoji": "🫣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_28",
+    "cat": "adjetivos",
+    "nombre": "28. Nervios",
+    "id_drive": "1lXrzvr2lVgKr7PbSoXQKXLHfvv_RqVcB",
+    "emoji": "😬",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_29",
+    "cat": "adjetivos",
+    "nombre": "29. lleno-satisfecho (cortar video en la primera seña)",
+    "id_drive": "11Mjmp3PCOYe6bI3SiSVUOBCU9sjpCUxf",
+    "emoji": "🤰🍲",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_30",
+    "cat": "adjetivos",
+    "nombre": "30. Ocupado",
+    "id_drive": "1j1KcTGkAVWCHfsvrtniRmUdRalH6-Ze3",
+    "emoji": "📵",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "adj_31",
+    "cat": "adjetivos",
+    "nombre": "31. Preocupado",
+    "id_drive": "1Q0i6vyS7UN2oOzoGdabRpZuoIRtAOAu3",
+    "emoji": "😟",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_01",
+    "cat": "verbos",
+    "nombre": "1 . Vivir ( lugar)",
+    "id_drive": "1Rb_ZoF9CLdEUHVzJ_d7gZjShfh8gcfqV",
+    "emoji": "📍",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_02",
+    "cat": "verbos",
+    "nombre": "2 . Construir",
+    "id_drive": "1w5OBnyUgyJjZ46ikeuApFio5sronFIi4",
+    "emoji": "🧱",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_03",
+    "cat": "verbos",
+    "nombre": "3 . Poder / No Poder",
+    "id_drive": "1icfn014RVLAgfmKCGZRTtCzk1sjJ41HW",
+    "emoji": "💪 / 🚫",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_04",
+    "cat": "verbos",
+    "nombre": "4 . Dormir / Despertar",
+    "id_drive": "1ftD4ohUzgEE46t9fsbETd6Ycbz-ehbwm",
+    "emoji": "💤 / 👀",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_05",
+    "cat": "verbos",
+    "nombre": "5 . Bañar / Peinar",
+    "id_drive": "1j59Qo51bJi5S1Khu2KpofG9xFx8YEUzV",
+    "emoji": "🚿 /🪮",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_06",
+    "cat": "verbos",
+    "nombre": "6 . Cortar",
+    "id_drive": "1MvaI0F1zm42mJwaRehTTg4mYXOUzbGy6",
+    "emoji": "✂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_07",
+    "cat": "verbos",
+    "nombre": "7 . Preparar",
+    "id_drive": "1dPSxDDtYc8toxOqvt6rGO4whKdg_O4M4",
+    "emoji": "🥣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_08",
+    "cat": "verbos",
+    "nombre": "8 . Limpiar",
+    "id_drive": "1TnZWvbQyqjRAbTAJMB1uzEGHW2YGfloN",
+    "emoji": "🧹",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_09",
+    "cat": "verbos",
+    "nombre": "9 . Comer",
+    "id_drive": "1XYyfBXWU7FZ43qv3GfxWlYkcYg5Z1fLz",
+    "emoji": "🍽️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_10",
+    "cat": "verbos",
+    "nombre": "10 . Trabajar",
+    "id_drive": "1O0QjU5aHS4hbihLebjgxKG0jbuARC_9t",
+    "emoji": "💼 | ⚒️ | 💻",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_11",
+    "cat": "verbos",
+    "nombre": "11 . Caminar / Correr / Saltar",
+    "id_drive": "1ng57YBBterasQn8e62iK8sRF8TDDqZSq",
+    "emoji": "🚶🏃‍♂️🤸‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_12",
+    "cat": "verbos",
+    "nombre": "12 . Viajar",
+    "id_drive": "1wP6vD8szOnp6cjbnsbN3Qxp1hDiW0EPz",
+    "emoji": "✈️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_13",
+    "cat": "verbos",
+    "nombre": "13 . Llegar",
+    "id_drive": "1O_ZPulb3aQfmzwFB51Z-GN7EqBHLxzL_",
+    "emoji": "🏁",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_14",
+    "cat": "verbos",
+    "nombre": "14 . pasear",
+    "id_drive": "1W0XWqil1OlVdD_yu_ePZOlklCc5Wr-Sc",
+    "emoji": "🌳 | 🚶‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_15",
+    "cat": "verbos",
+    "nombre": "15 . Buscar",
+    "id_drive": "1zYORkYlXBROp0_Qd2KbErmoKT8UBqW_o",
+    "emoji": "🔍 | 🕵️‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_16",
+    "cat": "verbos",
+    "nombre": "16 . Ver 16",
+    "id_drive": "1WvEBrJ43X5yR1WdqkFu53lYM8E6l5rXl",
+    "emoji": "nan",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_17",
+    "cat": "verbos",
+    "nombre": "17 . Desaparecer",
+    "id_drive": "16AeVA_yimhU8eRndwV0HKcweDwzSEtTg",
+    "emoji": "🪄 | 🌬️ | 👻",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_18",
+    "cat": "verbos",
+    "nombre": "18 . Nadar",
+    "id_drive": "1S_bJfAQS2-TqysYb7oTxLcwhuh4IvtEh",
+    "emoji": "🏊‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_19",
+    "cat": "verbos",
+    "nombre": "19 . Barrer",
+    "id_drive": "1MHDM7r7xyB68SFO2OpLMsbvlNXKqwPly",
+    "emoji": "🧹",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_20",
+    "cat": "verbos",
+    "nombre": "20 . Abrazar",
+    "id_drive": "1_EttRP2Nm-bBYDPhXWG3gzlshae7ZM3u",
+    "emoji": "🫂",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_21",
+    "cat": "verbos",
+    "nombre": "21 . Hablar",
+    "id_drive": "1NEYhN7qDpE8-LVwF5N5grD7hqvIuWaYV",
+    "emoji": "🗣️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_22",
+    "cat": "verbos",
+    "nombre": "22 . Contar, Relatar",
+    "id_drive": "1b4AIrQB8JXZXtXwd482qhb_EWMe88Q2S",
+    "emoji": "💬 | 👄 | 🗣️📜",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_23",
+    "cat": "verbos",
+    "nombre": "23 . Atender",
+    "id_drive": "13YMb_QggRfCXytBhmY98ZuGLF32RW9uU",
+    "emoji": "nan",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_24",
+    "cat": "verbos",
+    "nombre": "24 . Progresar",
+    "id_drive": "1oM1Y0JblbvmeaEasEJmtaPLxBlCwc3aB",
+    "emoji": "📈 | 🚀",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_25",
+    "cat": "verbos",
+    "nombre": "25 . Aportar",
+    "id_drive": "1ZPXpzCWvJ7hcU5RmW4BF11PCC0-aVX3t",
+    "emoji": "➕ | 🤲",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_26",
+    "cat": "verbos",
+    "nombre": "26 . Esconder",
+    "id_drive": "17djg45EhCyJOeZbViLjwXilwSF93o-lH",
+    "emoji": "🫣 | 🕵️‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_27",
+    "cat": "verbos",
+    "nombre": "27 . Fallar",
+    "id_drive": "1FqfGmdbKDz1RALkksG8IV2TaJojO9GiW",
+    "emoji": "❌ | 💥",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_28",
+    "cat": "verbos",
+    "nombre": "28 . Equivocar",
+    "id_drive": "1iu30Sb_R1GgTODOsfjuzNXWJMsWJfmgQ",
+    "emoji": "⚠️ | 🤷‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_29",
+    "cat": "verbos",
+    "nombre": "29 . Arreglar",
+    "id_drive": "1kuUi1jx7k_1g44xxRhseXuzGGEGl5SrW",
+    "emoji": "🔧 | 🛠️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_30",
+    "cat": "verbos",
+    "nombre": "30 . Romper",
+    "id_drive": "14ME9depFeaBeAfYQnwvlsMF322z1djP7",
+    "emoji": "🔨 | 💥",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_31",
+    "cat": "verbos",
+    "nombre": "31 . Robar",
+    "id_drive": "19j1KGpYCy38ZEQnA06cnR8dg-4KDbtRd",
+    "emoji": "🥷 | 💰",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_32",
+    "cat": "verbos",
+    "nombre": "32 . Matar",
+    "id_drive": "1pRLCcxIyUoz1eIvrtbxIvZF4RV0M-5J2",
+    "emoji": "🗡️ | 💀 | ⚰️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_33",
+    "cat": "verbos",
+    "nombre": "33 . Mentir",
+    "id_drive": "1EmmlJ58vHfIuNUIXsF0JsVcaw6xZ2ysp",
+    "emoji": "🤥 | 🙊",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_34",
+    "cat": "verbos",
+    "nombre": "35 . Morir",
+    "id_drive": "1VkIRctdklLpJVW2wtP6Rsh9sZ0-F6aom",
+    "emoji": "⚰️ | 🪦 | 🕯️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_35",
+    "cat": "verbos",
+    "nombre": "36 . Sufrir",
+    "id_drive": "1q7qbioQ_ceR1Q7FLrmK0JGOYWIfTLhlj",
+    "emoji": "😫 | 💔",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_36",
+    "cat": "verbos",
+    "nombre": "37 . Ofender",
+    "id_drive": "1KYEpXuR0TOQFWR00ufEgnvxSXLXp1rLR",
+    "emoji": "😤 | 🗯️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_37",
+    "cat": "verbos",
+    "nombre": "38 . Cambiar",
+    "id_drive": "1Jb3lzY6ge4aPIRwSWwRsJO-sEv04oq7S",
+    "emoji": "🔄 | 🔀",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_38",
+    "cat": "verbos",
+    "nombre": "39 . Olvidar",
+    "id_drive": "1hZ9jvppIMEGh8YlfcWo8uf_69vD701jr",
+    "emoji": "❓ | 🌬️ | 💨",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_39",
+    "cat": "verbos",
+    "nombre": "40 . Recordar",
+    "id_drive": "1tURgpuM5U9ouOg3iwxf4NtFlf1yJU8M7",
+    "emoji": "🧠 | 💭 | 🖼️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_40",
+    "cat": "verbos",
+    "nombre": "41 . Gritar",
+    "id_drive": "1hl_jwU3-1p2FMqJNgewXjWQvbmR0Ag-w",
+    "emoji": "🗣️ | 🔊",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_41",
+    "cat": "verbos",
+    "nombre": "42 . Elegir",
+    "id_drive": "1TRiSOQ8TNj_Uc2Y9EUNNYviWB7wQj7b3",
+    "emoji": "👆",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_42",
+    "cat": "verbos",
+    "nombre": "43 . Copiar",
+    "id_drive": "1vzB5C8KpnNKJw5scaXVjNrUaqvmT0uLx",
+    "emoji": "📋 | ✍️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_43",
+    "cat": "verbos",
+    "nombre": "44 . Continuar",
+    "id_drive": "1KwX2BmjFZgHjmvYStJkpN4lfNPaszT9q",
+    "emoji": "⏭️ | ➡️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_44",
+    "cat": "verbos",
+    "nombre": "45 . Freno,obstaculo,falta de accesibilidad",
+    "id_drive": "1AdVIz7osSbyz4CzC71J0LBZ_I6z8Yfsq",
+    "emoji": "🛑 | 🚧 | 🧱 | 🚫",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_45",
+    "cat": "verbos",
+    "nombre": "46 . Esfuerzo",
+    "id_drive": "1ZYK40hoS23JrqZSq73BIowjs1w0RjXef",
+    "emoji": "🥵 | 💪",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_46",
+    "cat": "verbos",
+    "nombre": "47 . Pedir",
+    "id_drive": "1NrX5mSNLSuLmDdILZ3g8K_R0LFoifUCs",
+    "emoji": "🤲 | 🙋‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_47",
+    "cat": "verbos",
+    "nombre": "48 . Fin",
+    "id_drive": "1WA0G0X4nub1_7OK87JO1lWle643pF2rZ",
+    "emoji": "🏁 | 🔚",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "ver_48",
+    "cat": "verbos",
+    "nombre": "49 . Filmar",
+    "id_drive": "1YgmJ1yjIsmYKPqP5ITu6KMQnPMNCRyYR",
+    "emoji": "🎥 | 📹 | 🎬",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_01",
+    "cat": "Otras expresiones",
+    "nombre": "01 . Como vos quieras",
+    "id_drive": "1mk3CguB08Snhk60duAp5xHVJqB4BaHie",
+    "emoji": "🫵 | 🆗 | 🤷‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_02",
+    "cat": "Otras expresiones",
+    "nombre": "02 . Como yo quiera",
+    "id_drive": "1PV5FF_gtHS0bbuFGwuE2OYUWdyyNwU80",
+    "emoji": "☝️ | 😎 | 🙋‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_03",
+    "cat": "Otras expresiones",
+    "nombre": "03 . No importa",
+    "id_drive": "1-xkxPNx9k0Xxo3cNGeGXrB7BB1oblUHU",
+    "emoji": "🤷 | 🙅‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_04",
+    "cat": "Otras expresiones",
+    "nombre": "04 . Importante",
+    "id_drive": "1Z5_wLSz7WozZ1DdQDQaM8eUoeekTmV5l",
+    "emoji": "⚠️ | ⭐ | ‼️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_05",
+    "cat": "Otras expresiones",
+    "nombre": "05 . Adentro",
+    "id_drive": "1Xu7nH9Q-WRZTSybiy5Gy1y3COpRvOIUv",
+    "emoji": "📥 | 🏠 | 📦 | ⬇️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_06",
+    "cat": "Otras expresiones",
+    "nombre": "06 . Afuera",
+    "id_drive": "1xpJaAZHc1fg_6_fhTV8rHCeGOmTazuSy",
+    "emoji": "📤 | 🌳 | 🚪 | ⬆️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_07",
+    "cat": "Otras expresiones",
+    "nombre": "07 . Cerca",
+    "id_drive": "1qpwm13Ha-uMcmh4U-Qeug0p6aEDYvFPu",
+    "emoji": "📍 | 📏",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_08",
+    "cat": "Otras expresiones",
+    "nombre": "08 . Lejos",
+    "id_drive": "1bIQeVv42JQiJRd7hviu3MofeTkVPTBlK",
+    "emoji": "🔭 | 🛣️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_09",
+    "cat": "Otras expresiones",
+    "nombre": "09 . Si, No, Puede Ser",
+    "id_drive": "1X4N1pxGAVBgOTO1hDyGhqo_PNYlhBGiC",
+    "emoji": "SI✅| NO❌ | puede ser❓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_10",
+    "cat": "Otras expresiones",
+    "nombre": "10 . A veces",
+    "id_drive": "19TyOrgnKsEs5laEtVIHsAD8m7o0dVlb-",
+    "emoji": "⌛ | 🌗",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_11",
+    "cat": "Otras expresiones",
+    "nombre": "11 . Algunos",
+    "id_drive": "1Kwk_hTKkPf9St9vtbE-Z5YjT08OePCpu",
+    "emoji": "🤏 | 🔢",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_12",
+    "cat": "Otras expresiones",
+    "nombre": "12 . Gracias",
+    "id_drive": "1M6CP7dGgaFDxmVFiSlwRIptZiUerFprs",
+    "emoji": "🙏 | 🤝 | 💖 | 😊",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_13",
+    "cat": "Otras expresiones",
+    "nombre": "13 . Permiso",
+    "id_drive": "1-2kfNbKEiS6ZtOJtqNLAhuAQTbX5ZhfE",
+    "emoji": "✋ | 🚶‍♂️ | 🔓",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_14",
+    "cat": "Otras expresiones",
+    "nombre": "14 . Perdón",
+    "id_drive": "1QNBr4QLcsJeMYY-xYSI9YIXG2AplLjf6",
+    "emoji": "😔 | 🙏 | 🥺",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_15",
+    "cat": "Otras expresiones",
+    "nombre": "15 . me gusta, no me gusta",
+    "id_drive": "15-2SjXaQdaTvBd5khXyKb6YXGVsb6RVR",
+    "emoji": "👍👎 | 😍🤢",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_16",
+    "cat": "Otras expresiones",
+    "nombre": "16 . No quiero",
+    "id_drive": "1rXbr9O5RtxAgNGWQ51uipRxtU2di7T0G",
+    "emoji": "🙅‍♂️ | 😤 | 🚫",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_17",
+    "cat": "Otras expresiones",
+    "nombre": "17 . Equivocado",
+    "id_drive": "1Z4qTWkSrnEloZiRV9rDvvuk6iYLUQLUg",
+    "emoji": "❌ | ⚠️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_18",
+    "cat": "Otras expresiones",
+    "nombre": "18 . Amor",
+    "id_drive": "1g9AUnKlgiJz1WzPKiPaOofHXArlpBKm1",
+    "emoji": "❤️ | 🫂 | 🥰",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_19",
+    "cat": "Otras expresiones",
+    "nombre": "19 . Mezcla /Mezclar",
+    "id_drive": "1ouuagH6YHTLpm6Sc_26zcbYGCwiNSqya",
+    "emoji": "🌀 | 🌪️ | 🍲 | 🥣",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_20",
+    "cat": "Otras expresiones",
+    "nombre": "20 . Solamemte",
+    "id_drive": "1jovGa7qL25l_raCqUKy7iE_sbISwQLrc",
+    "emoji": "☝️ | 🎯",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_21",
+    "cat": "Otras expresiones",
+    "nombre": "21 . Completo",
+    "id_drive": "1RAV4F4dThD-EsMWEghL8X2uwZYcr_asT",
+    "emoji": "🌕 | ✅ | 💯 |",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_22",
+    "cat": "Otras expresiones",
+    "nombre": "22 . Cualquiera",
+    "id_drive": "1bDWvaCBJpaYeTjTX3Q2iAbuKJSzc6fT5",
+    "emoji": "🔀 | 🎲 | 🤷‍♂️",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_23",
+    "cat": "Otras expresiones",
+    "nombre": "23 . Mejor (de elección)",
+    "id_drive": "1MNFnix_Gj2vAqql4nGXmtNi_B51P8sAW",
+    "emoji": "🥇 | ⭐ | 🔝",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_24",
+    "cat": "Otras expresiones",
+    "nombre": "24 . Demasiado",
+    "id_drive": "1iq1QvWDp8X1BusSZabinKy2vIQ5rhd3R",
+    "emoji": "💥 | 🌋 | 📈",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_25",
+    "cat": "Otras expresiones",
+    "nombre": "25 . Al frente",
+    "id_drive": "1h0fX3dmOWM7zLz36EDvcPTtbDdiPGhMt",
+    "emoji": "⬆️ | ⏩",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_26",
+    "cat": "Otras expresiones",
+    "nombre": "26 . Atras",
+    "id_drive": "1nll1aaaQVos17m0L0ooYN8avPn-0Rt6m",
+    "emoji": "⬇️ | ⏪",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_27",
+    "cat": "Otras expresiones",
+    "nombre": "27 . Al lado",
+    "id_drive": "1h9MYKyHs3QmIcsdvC6_SQRyBxPvJ6UlF",
+    "emoji": "➡️ | 👥",
+    "destacado": "NO"
+  },
+  {
+    "id_video": "otras_28",
+    "cat": "Otras expresiones",
+    "nombre": "28 . Darse cuenta / Me doy cuenta",
+    "id_drive": "1u1yPaRGQbLWqjMIVoYiKZj0mMyaGEF8c",
+    "emoji": "💡 | 🧠 | 👀 | 🔓",
+    "destacado": "NO"
+  }
+]
