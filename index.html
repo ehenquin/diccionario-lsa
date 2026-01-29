@@ -175,15 +175,14 @@
         <img src="https://i.postimg.cc/L5JC4xkM/Logo.jpg" class="logo-img" alt="Logo">
       </div>
 
-      <!-- ACA PUEDO CAMBIAR EL TEMA DE LAS VERSIONES -->
-
       <h2 style="color:#1a237e; font-size: 20px;">Acceso Masters</h2>
-      <p style="font-size:15px; color:#666; margin-bottom:1px;">Diccionario LSA-AR (V8)</p>
+      <p style="font-size:15px; color:#666; margin-bottom:1px;">Diccionario LSA-AR (V9)</p>
       <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
-      <p style="font-size:10px; color:#666; margin-bottom:1px;">Versión 8.0</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Versión 9.0</p>
       <p style="font-size:10px; color:#666; margin-bottom:1px;">Favoritos flotantes, no tapan íconos</p>
-      <p style="font-size:10px; color:#666; margin-bottom:1px;">Paso a repositrio GitHub</p>      
-      <p style="font-size:10px; color:#666; margin-bottom:15px;">Uso HASH en PASS - 29/01/2026</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Paso a repositrio GitHub</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Uso HASH en PASS</p>       
+      <p style="font-size:10px; color:#666; margin-bottom:15px;">Sesion abierta 60 minutos + Botón "cerrar sesión" - 29/01/2026</p>
       <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
 
       <input type="text" id="uIn" placeholder="Usuario" autocomplete="off" />
@@ -193,7 +192,7 @@
 
       <button class="btn-login" id="loginBtn" onclick="validar()">INGRESAR</button>
 
-      <a
+    <a
         href="https://wa.me/543424307388?text=Hola%20Eduardo.%20Te%20env%C3%ADo%20el%20comprobante%20de%20pago%2C%20y%20te%20solicito%20acceso%20%28User%20y%20Pass%29%20para%20ingresar%20a%20la%20p%C3%A1gina%20del%20diccionario%20LSA-AR"
         target="_blank"
         class="btn-wa"
@@ -219,7 +218,9 @@
       <header class="app-header">
         <h1 class="app-title">Diccionario LSA-AR</h1>
         <div class="app-subtitle">UniendoMundosLSA</div>
-      </header>
+
+        <button onclick="cerrarSesion()" style="margin-top:10px; background:#ffeb3b; border:none; padding:6px 12px; border-radius:10px; font-weight:bold; cursor:pointer; color:#1a237e; font-size:11px;">CERRAR SESIÓN</button>
+        </header>
 
       <div class="main-search-wrap">
         <input id="mainSearchIn" class="main-search-input" type="text" placeholder="Buscar en todo el diccionario..." autocomplete="off" />
@@ -362,6 +363,17 @@
 
       if (found) {
         if (found.activo) {
+
+          // =================================================================================
+          // MODIFICACIÓN (2): GUARDAMOS LA SESIÓN POR 1 HORA (3600000 milisegundos)
+          // =================================================================================
+          const expiryTime = Date.now() + (60 * 60 * 1000); 
+          localStorage.setItem('LSA_SESSION', JSON.stringify({ 
+            user: u, 
+            expiry: expiryTime 
+          }));
+          // =================================================================================
+
           showMsg("🚀 Cargando Diccionario...", "loading");
           await cargarDatos();
           loadFavs();
@@ -433,12 +445,15 @@
     list.forEach(v => grid.appendChild(createCard(v)));
   }
 
+  // =================================================================================
+  // FUNCIÓN CORREGIDA: SE ARREGLÓ EL ERROR DE VARIABLE 'idDrive' QUE ROMPÍA LOS VIDEOS
+  // =================================================================================
   function createCard(v) {
     const btn = document.createElement('div');
     btn.className = `item-vid ${v.destacado === "SI" ? 'featured' : ''}`;
     btn.onclick = (ev) => { if (!ev.target.classList.contains('fav-btn')) play(v.id_drive); };
 
-    const starOn = isFav(v.id_drive);
+    const starOn = isFav(v.id_drive); // <--- ESTO ESTABA MAL Y AHORA ESTÁ BIEN
     btn.innerHTML = `
       <div class="fav-btn ${starOn ? 'on' : ''}" onclick="event.stopPropagation(); toggleFav('${v.id_drive}')">${starOn ? '⭐' : '☆'}</div>
       <i>${v.emoji || "🎬"}</i>
@@ -446,6 +461,7 @@
     `;
     return btn;
   }
+  // =================================================================================
 
   function volver() {
     hide(document.getElementById('videoView'));
@@ -536,6 +552,33 @@
     filtrado.forEach(v => grid.appendChild(createCard(v)));
     show(wrap);
   }
+
+
+// 1. Al final del script (para que se ejecute apenas carga la web):
+// Función para verificar sesión al cargar la página------------------------------------------
+
+window.onload = async function() {
+  const session = JSON.parse(localStorage.getItem('LSA_SESSION'));
+  
+  if (session && Date.now() < session.expiry) {
+    // La sesión es válida, cargamos los datos y entramos directo
+    showMsg("🚀 Recuperando sesión...", "loading");
+    await cargarDatos();
+    loadFavs();
+    document.getElementById('loginScreen').classList.add('hidden');
+    document.getElementById('app').classList.remove('hidden');
+  }
+};
+
+// =================================================================================
+// MODIFICACIÓN (3): FUNCIÓN PARA EL BOTÓN DE CERRAR SESIÓN (ELIMINA LA MARCA DE TIEMPO)
+// =================================================================================
+function cerrarSesion() {
+  localStorage.removeItem('LSA_SESSION');
+  location.reload(); 
+}
+// =================================================================================
+
 </script>
 </body>
 </html>
