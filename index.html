@@ -4,7 +4,6 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-
 <link rel="icon" type="image/png" href="https://i.postimg.cc/Y2ZmtXJD/ICONO.png">
 <link rel="apple-touch-icon" href="https://i.postimg.cc/Y2ZmtXJD/ICONO.png">
 
@@ -169,9 +168,6 @@
 </style>
 </head>
 
-
-
-
 <body>
   <section id="loginScreen" class="screen">
     <div class="login-card">
@@ -179,14 +175,15 @@
         <img src="https://i.postimg.cc/L5JC4xkM/Logo.jpg" class="logo-img" alt="Logo">
       </div>
 
-<!-- ACA PUEDO CAMBIAR EL TEMA DE LAS VERSIONES -->
+      <!-- ACA PUEDO CAMBIAR EL TEMA DE LAS VERSIONES -->
 
       <h2 style="color:#1a237e; font-size: 20px;">Acceso Masters</h2>
-      <p style="font-size:13px; color:#666; margin-bottom:1px;">Diccionario LSA-AR (V6)</p>
+      <p style="font-size:15px; color:#666; margin-bottom:1px;">Diccionario LSA-AR (V8)</p>
       <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
-      <p style="font-size:8px; color:#666; margin-bottom:1px;">Versión 7.0</p>
-      <p style="font-size:8px; color:#666; margin-bottom:1px;">Favoritos flotantes, no tapan íconos</p>
-      <p style="font-size:8px; color:#666; margin-bottom:15px;">Paso a repositrio GitHub - 29/01/2026</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Versión 8.0</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Favoritos flotantes, no tapan íconos</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Paso a repositrio GitHub</p>      
+      <p style="font-size:10px; color:#666; margin-bottom:15px;">Uso HASH en PASS - 29/01/2026</p>
       <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
 
       <input type="text" id="uIn" placeholder="Usuario" autocomplete="off" />
@@ -331,7 +328,18 @@
   function show(el) { el.classList.remove('hidden'); }
   function hide(el) { el.classList.add('hidden'); }
 
-  // Validación local contra users.json
+  // --- FUNCIÓN DE SEGURIDAD SHA-256 --------------------- USO https://hash.online-convert.com/sha256-generator 
+  // ELEGIR hex (la primera, que está en minúsculas). 
+  // La base de datos reales esta en https://docs.google.com/spreadsheets/d/1KM5cuVVnqSGtn6YXXrIwvFvjrA3ff-5DYUO8GhHodFs/edit?usp=sharing 
+  // de Familia Henquín (you) henquinaplicaciones@gmail.com
+  async function generarHash(texto) {
+    const msgUint8 = new TextEncoder().encode(texto);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgUint8);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+
+  // Validación local contra users.json con HASHING
   async function validar() {
     const u = document.getElementById('uIn').value.trim();
     const p = document.getElementById('pIn').value.trim();
@@ -345,7 +353,12 @@
     try {
       const resp = await fetch('users.json');
       const users = await resp.json();
-      const found = users.find(user => user.user === u && user.pass === p);
+      
+      // Generamos el hash de la contraseña ingresada
+      const hashIngresado = await generarHash(p);
+      
+      // Comparamos el usuario y el hash
+      const found = users.find(user => user.user === u && user.pass === hashIngresado);
 
       if (found) {
         if (found.activo) {
@@ -357,11 +370,11 @@
           show(document.getElementById('menuMain'));
           hide(document.getElementById('videoView'));
         } else {
-          showMsg("🚫 Cuenta desactivada", "error");
+          showMsg("🚫 Cuenta desactivada. Contactar al Administrador", "error");
           btn.disabled = false;
         }
       } else {
-        showMsg("❌ Usuario/Pass incorrectos", "error");
+        showMsg("❌ Usuario/Pass incorrectos. Si no sos usuario, SOLICITA ACCESO", "error");
         btn.disabled = false;
       }
     } catch (e) {
