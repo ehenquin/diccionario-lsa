@@ -205,13 +205,14 @@
       </div>
 <!-- ACA PUEDO CAMBIAR EL TEXTO DE LA VERSION                                 ############################ -->
       <h2 style="color:#1a237e; font-size: 20px;">Acceso Masters</h2>
-      <p style="font-size:15px; color:#666; margin-bottom:1px;">Diccionario LSA-AR (V10)</p>
+      <p style="font-size:15px; color:#666; margin-bottom:1px;">Diccionario LSA-AR (V11)</p>
       <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
-      <p style="font-size:10px; color:#666; margin-bottom:1px;">Versión 10.0</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Versión 11.0</p>
       <p style="font-size:10px; color:#666; margin-bottom:1px;">Favoritos flotantes, no tapan íconos</p>
       <p style="font-size:10px; color:#666; margin-bottom:1px;">Paso a repositrio GitHub</p>
       <p style="font-size:10px; color:#666; margin-bottom:1px;">Uso HASH en PASS</p>
       <p style="font-size:10px; color:#666; margin-bottom:1px;">Sesion abierta 60 minutos + Botón "cerrar sesión"</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">LSA-LOGS. Registro de entradas.</p>
       <p style="font-size:10px; color:#666; margin-bottom:15px;">Ojito de PassWord agregado - 30/01/2026</p>
       <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
 
@@ -321,6 +322,33 @@
   let favSet = new Set();
   let homeFavsOpen = false;
 
+
+
+  // ESTO ME VA A INFORMAR QUIEN ENTRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+  const LOG_URL = "https://script.google.com/macros/s/AKfycbwATJI3snGrUdXapC1rqzm70fhluJ4WM_FJHQJZTvBgq08XzK4bmBswR5QCAhIyT25W/exec";
+
+  async function logEvent(event, user) {
+    try {
+      await fetch(LOG_URL, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify({
+          event: event || "ping",
+          user: user || "",
+          page: location.href,
+          ua: navigator.userAgent
+        })
+      });
+    } catch (e) {}
+  }
+
+
+
+
+
+
+
   // Carga favoritos
   function loadFavs() {
     try {
@@ -422,6 +450,8 @@
             user: u, 
             expiry: expiryTime 
           }));
+          await logEvent("login_ok", u); // ESTA LINEA LE INFORMA QUIEN ENTROOOOOOOOOOOOOOOOOOOOOOO
+
           // =================================================================================
 
           showMsg("🚀 Cargando Diccionario...", "loading");
@@ -436,6 +466,7 @@
           btn.disabled = false;
         }
       } else {
+        await logEvent("login_fail", u); // ES PARA QUE ESCRIBA QUIEN ENTROOOOOOOOOOOOOOOOOOOO
         showMsg("❌ Usuario/Pass incorrectos. Si no sos usuario, SOLICITA ACCESO", "error");
         btn.disabled = false;
       }
