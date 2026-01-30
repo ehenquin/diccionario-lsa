@@ -22,6 +22,35 @@
   .logo-container { width: 100%; height: 130px; background: white; border-radius: 12px; border: 2px solid #1a237e; margin-bottom: 20px; padding: 10px; display: flex; justify-content: center; align-items: center; }
   .logo-img { max-width: 100%; max-height: 100%; object-fit: contain; }
   input { width: 100%; padding: 15px; margin: 10px 0; border: 2px solid #eee; border-radius: 12px; font-size: 16px; outline: none; }
+  
+  
+/* --- ESTILO DEL OJITO del PASS--- */
+  .pass-wrapper { position: relative; width: 100%; }
+  .toggle-pass {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #1a237e;
+    user-select: none;
+  }
+
+
+/* OCULTAR OJITO NATIVO DEL NAVEGADOR */
+  input[type="password"]::-ms-reveal,
+  input[type="password"]::-ms-clear {
+    display: none;
+  }
+  input::-webkit-credentials-auto-fill-button {
+    visibility: hidden;
+    display: none !important;
+  }
+
+
+
+  
   .btn-login { width: 100%; padding: 16px; background: #1a237e; color: white; border: none; border-radius: 12px; font-weight: bold; font-size: 18px; margin-top: 10px; cursor: pointer; }
   .btn-wa { display: block; margin-top: 20px; padding: 15px; background: #25D366; color: white; text-decoration: none; border-radius: 12px; font-weight: bold; font-size: 14px; }
   .masters { display: flex; gap: 10px; margin-top: 30px; width: 100%; max-width: 360px; }
@@ -174,20 +203,25 @@
       <div class="logo-container">
         <img src="https://i.postimg.cc/L5JC4xkM/Logo.jpg" class="logo-img" alt="Logo">
       </div>
-
+<!-- ACA PUEDO CAMBIAR EL TEXTO DE LA VERSION                                 ############################ -->
       <h2 style="color:#1a237e; font-size: 20px;">Acceso Masters</h2>
-      <p style="font-size:15px; color:#666; margin-bottom:1px;">Diccionario LSA-AR (V9)</p>
+      <p style="font-size:15px; color:#666; margin-bottom:1px;">Diccionario LSA-AR (V10)</p>
       <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
-      <p style="font-size:10px; color:#666; margin-bottom:1px;">Versión 9.0</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Versión 10.0</p>
       <p style="font-size:10px; color:#666; margin-bottom:1px;">Favoritos flotantes, no tapan íconos</p>
       <p style="font-size:10px; color:#666; margin-bottom:1px;">Paso a repositrio GitHub</p>
-      <p style="font-size:10px; color:#666; margin-bottom:1px;">Uso HASH en PASS</p>       
-      <p style="font-size:10px; color:#666; margin-bottom:15px;">Sesion abierta 60 minutos + Botón "cerrar sesión" - 29/01/2026</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Uso HASH en PASS</p>
+      <p style="font-size:10px; color:#666; margin-bottom:1px;">Sesion abierta 60 minutos + Botón "cerrar sesión"</p>
+      <p style="font-size:10px; color:#666; margin-bottom:15px;">Ojito de PassWord agregado - 30/01/2026</p>
       <hr style="border:0; height:1px; background:#ccc; margin:4px 0 6px 0;">
 
       <input type="text" id="uIn" placeholder="Usuario" autocomplete="off" />
-      <input type="password" id="pIn" placeholder="Contraseña" />
-
+      
+<!-- ACA ESTA EL OJO INICIAL                                 ############################ -->
+      <div class="pass-wrapper">
+        <input type="password" id="pIn" placeholder="Contraseña" />
+        <span class="toggle-pass" onclick="toggleVer()">⦿</span>
+      </div>
       <div id="statusMsg"></div>
 
       <button class="btn-login" id="loginBtn" onclick="validar()">INGRESAR</button>
@@ -328,6 +362,22 @@
   // Helpers de pantallas
   function show(el) { el.classList.remove('hidden'); }
   function hide(el) { el.classList.add('hidden'); }
+
+  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  // !!! MODIFICACION: FUNCION PARA EL OJITO (VER/OCULTAR) !!!
+  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  function toggleVer() {
+    const p = document.getElementById('pIn');
+    const icon = document.querySelector('.toggle-pass');
+    if (p.type === "password") {
+      p.type = "text";
+      icon.innerText = "🝐"; 
+    } else {
+      p.type = "password";
+      icon.innerText = "⦿";
+    }
+  }
+  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
   // --- FUNCIÓN DE SEGURIDAD SHA-256 --------------------- USO https://hash.online-convert.com/sha256-generator 
   // ELEGIR hex (la primera, que está en minúsculas). 
