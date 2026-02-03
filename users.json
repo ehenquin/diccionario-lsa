@@ -1,5 +1,7 @@
 [
   { "user": "edu", "pass": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4", "activo": true },
   { "user": "joni", "pass": "5096b92bd1ce667abf75b2bb016ea726a39239be08a5fb7d15985e636c62c55b", "activo": true },
+  { "user": "matias", "pass": "322ac9c5f39fcb8a5cf2d3ad558913ad6b056d8093c50704dda0215ee11c2a3a", "activo": true },
   { "user": "rubia", "pass": "6fc5fa99f546430217f212b44f2d3c52f98e99dcdfb2f84776fa03c71f2fbc0c", "activo": true }
 ]
+
